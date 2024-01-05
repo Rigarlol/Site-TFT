@@ -96,6 +96,7 @@ section.topo-do-site .flex {
     justify-content: center;
     gap: 90px;
 }
+
 section.topo-do-site .txt-topo-site h1 {
     color: white;
     font-size: 45px;
@@ -253,3 +254,85 @@ footer p {
     line-height: 1.8;
     padding-top: 10px;
 }
+
+@media screen and (max-width: 1020px) {
+    /* GERAL */
+    .flex {
+        flex-direction: column;
+    }
+
+    .img-topo-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    section.topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+
+    h2.titulo {
+        padding-top: 60px;
+        font-size: 34px;
+        line-height: 30px;
+    }
+    
+    /* CABEÇALHO */
+    .menu-desktop, .derso-contato {
+        display: none;
+    }
+
+    /* TOPO-DO-SITE */
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    section.topo-do-site .txt-topo-site h1 {
+        font-size: 30px;
+    }
+
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+    /* ESPECIALIDADES */
+    section.especidalidades {
+        padding: 40px 8%;
+    }
+
+    /* SOBRE */
+    section.sobre {
+        padding: 40px 8%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .dersin-sociais {
+        text-align: center;
+    }
+    
+    .img-sobre img {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    footer .flex {
+        flex-direction: column;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+
+    footer .dersin-sociais button {
+        display: none;
+    }
+
+    footer p {
+        text-align: center;
+    }
+}
+
