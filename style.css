@@ -163,6 +163,7 @@ section.especialidades .flex{
 
 section.sobre {
     padding: 80px 4%;
+    padding-bottom: 260px;
 }
 
 section.sobre .flex {
@@ -191,7 +192,7 @@ section.sobre .txt-sobre p {
     text-align: justify;
 }
 
-section.sobre .txt-sobre .dersin-sociais button {
+.dersin-sociais button {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -202,4 +203,53 @@ section.sobre .txt-sobre .dersin-sociais button {
     margin: 0 5px;
     transition: .2s;
     color: white;
+}
+
+/* ESTILO FOOTER */
+
+footer {
+    padding: 10px 4%;
+    box-shadow: 0 0 40px 10px #ffffff10;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    color: white;
+}
+
+footer .dersin-sociais button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 6, 6, 0.677);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+    color: white;
+    margin-top: 30px;
+}
+
+footer p i {
+    width: 60px;
+    height: 60px;
+    
+    border: none;
+    margin-left: 30px;
+    font-size: 22px;        
+    color: rgba(255, 6, 6, 0.677);
+}
+
+footer .line-footer-borda {
+    border-top: 2px solid rgba(255, 6, 6, 0.677);
+}
+
+footer p {
+    color: white;
+    line-height: 1.8;
+    padding-top: 10px;
 }
