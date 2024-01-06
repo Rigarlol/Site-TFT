@@ -16,3 +16,19 @@ imagensComposicao.forEach((imagem, index) => {
     }
   });
 });
+
+let abrirMenu = document.getElementById('abrir')
+let menu = document.getElementById('menu-mobile')
+let overlay = document.getElementById('overlay-menu')
+
+abrirMenu.addEventListener('click', ()=> {
+  menu.classList.add('menu-aberto')
+}) 
+
+menu.addEventListener('click', ()=> {
+  menu.classList.remove('menu-aberto')
+}) 
+
+overlay.addEventListener('click', ()=> {
+  menu.classList.remove('menu-aberto')
+}) 
