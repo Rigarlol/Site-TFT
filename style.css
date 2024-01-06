@@ -47,6 +47,11 @@ h2.titulo span {
     color: rgba(255, 6, 6, 0.677);
 }
 
+h1 span {
+    color: rgba(255, 6, 6, 0.677);
+}
+
+
 /* ESTILO CABEÇALHO */
 
 header {
@@ -283,7 +288,7 @@ section.comps h1 {
     color: white;
     text-align: center;
     font-size: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 section.comps h2, h3, p {
@@ -331,6 +336,10 @@ section.comps .composicao h3 {
 
 .comps .composicao-info img {
     border-radius: 10px;
+}
+
+.comps .composicao-info #caitlyn2 {
+    margin-top: 20px;
 }
 
 
