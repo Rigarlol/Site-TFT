@@ -375,8 +375,6 @@ section.comps .composicao h3 {
     text-align: center;
     cursor: pointer;
     border-radius: 10px;
-    
-    
 }
 
 .comps .composicao-info {
@@ -473,6 +471,62 @@ section.comps .composicao h3 {
         width: 100%;
     }
 
+    /* COMPOSIÇÕES */
+
+    section.comps {
+        padding: 20px 4%;
+    }
+
+    .comps .composicao img#um {
+        content: url('images/blitz-sentinela-pequeno.png');
+    }
+
+    .comps .composicao-info img#comp-um {
+        content: url('images/comp-ahri-sentinela-pequeno.png');
+    }
+
+    .comps .composicao img#dois {
+        content: url('images/ez-bigshot-pequeno.png');
+    }
+
+    .comps .composicao-info img#comp-dois {
+        content: url('images/comp-ez-bigshot-pequeno.png');
+    }
+
+    .comps .composicao img#tres {
+        content: url('images/caitlyn-true\ damage-pequeno.png');
+    }
+
+    .comps .composicao-info img#comp-tres {
+        content: url('images/comp-caitlyn\ true\ damage-pequeno.png');
+    }
+
+    .comps .composicao-info img#caitlyn2 {
+        content: url('images/comp-caitlyn\ true\ damage2-pequeno.png');
+    }
+
+
+    section.comps .composicao h3 {
+        font-size: 25px;
+        padding-left: 0px;
+    }
+
+    section.comps .txt-comps h2 {
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 30px;
+        margin-top: -30px;
+    }
+
+    section.comps .txt-comps h3 {
+        color: rgba(255, 6, 6, 0.677);
+    }
+
+    section.comps p {
+        text-align: justify;
+    }
+
+    
     /* FOOTER */
     footer .flex {
         flex-direction: column;
