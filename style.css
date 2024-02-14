@@ -479,10 +479,12 @@ section.comps .composicao h3 {
 
     .comps .composicao img#um {
         content: url('images/blitz-sentinela-pequeno.png');
+        
     }
 
     .comps .composicao-info img#comp-um {
         content: url('images/comp-ahri-sentinela-pequeno.png');
+        
     }
 
     .comps .composicao img#dois {
